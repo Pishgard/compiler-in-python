@@ -27,6 +27,9 @@ git clone https://github.com/Pishgard/compiler-in-python.git
 ```
 
 2. **Make sure you are in compiler-in-python folder**
+```
+cd compiler-in-python
+```
 
 3. Install all dependencies
 ```
