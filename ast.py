@@ -23,7 +23,7 @@ class Sub(BinaryOp):
 
 
 class Print():
-    def __int__(self, value):
+    def __init__(self, value):
         self.value = value
 
     def eval(self):
