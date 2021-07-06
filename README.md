@@ -1,5 +1,5 @@
 # compiler-in-python
-In this project we will try to build a compiler using Python and some powerful libraries as it was explain by **Marcelo Andrade** in his post [Writing your own programming language and compiler with Python](https://blog.usejournal.com/writing-your-own-programming-language-and-compiler-with-python-a468970ae6df).
+In this project we will try to build a compiler using Python and some powerful libraries.
 ## Compilers
 A compiler can be any program that translates one text into another. Since a computer can only read 1s and 0s, and humans write better Code than they do binary, compilers were made to turn that human-readable text into computer-readable *machine code*.
 
@@ -17,6 +17,28 @@ Our compiler can be divided intro three components:
 For the **Lexer** and **Parser** we’ll be using _RPLY_, really similar to _PLY: a Python library with lexical and parsing tools, but with a better API_. And for the **Code Generator**, we’ll use _LLVMlite_, a Python library for binding _LLVM_ components. Using LLVM, it is possible to optimize your compilation without learning compiling optimization, and _LLVMLite_ it´s a really good library to work with compilers.
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*ttOYPPL-XJIf4zVZQUBzsQ.jpeg)
+
+
+## How to run this project
+
+1. **Clone the project**
+```
+git clone https://github.com/Pishgard/compiler-in-python.git
+```
+
+2. **Make sure you are in compiler-in-python folder**
+
+3. Install all dependencies
+```
+pip install -r requirements.txt
+```
+
+4. **Run Main**
+```
+python main.py
+```
+
+
 ## Lexical Analysis
 The first step is to split the input up character by character. This step is called **Lexical Analysis** or **Tokenization**. The major idea is that **we group characters together to form our words, identifiers, symbols, and more**. 
 
