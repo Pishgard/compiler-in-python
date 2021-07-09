@@ -68,7 +68,7 @@ TOKEN('SEMI_COLON',';')
 ![alt text](https://miro.medium.com/max/1164/1*gJCBr6E-lhYSiW0BsUU4mQ.jpeg)
 
 Inside an `ast.py` file in which we put all clases that are going to be called on the Parser and create the AST. For example: 
-`class Number()`, `class BinaryOp()`, `class Sum()`, `class Sub()`, `class Print()`.
+`class Number()`, `class BinaryOp()`, `class Sum()`, `class Sub()`, `class Mul()`, `class Div()`, `class Mod()`, `class Print()`.
 
 Next we need to create the parser, in which we’ll use ParserGenerator from RPLY inside a file name `parser.py`. And finally, we’ll update our file `main.py` to combine **Parser** with **Lexer**.
 

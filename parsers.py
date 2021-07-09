@@ -1,5 +1,5 @@
 from rply import ParserGenerator
-from ast import Number, Sum, Sub, Print
+from ast import Number, Sum, Sub, Mul, Div, Mod, Print
 
 
 class Parser:
@@ -7,7 +7,7 @@ class Parser:
         self.pg = ParserGenerator(
             # A list of all token names accepted by the parser.
             ['NUMBER', 'PRINT', 'OPEN_PAREN', 'CLOSE_PAREN',
-             'SEMI_COLON', 'SUM', 'SUB']
+             'SEMI_COLON', 'SUM', 'SUB', 'MUL', 'DIV', 'MOD']
         )
 
     def parse(self):
@@ -17,6 +17,9 @@ class Parser:
 
         @self.pg.production('expression : expression SUM expression')
         @self.pg.production('expression : expression SUB expression')
+        @self.pg.production('expression : expression MUL expression')
+        @self.pg.production('expression : expression DIV expression')
+        @self.pg.production('expression : expression MOD expression')
         def expression(p):
             left = p[0]
             right = p[2]
@@ -25,6 +28,12 @@ class Parser:
                 return Sum(left, right)
             elif operator.gettokentype() == 'SUB':
                 return Sub(left, right)
+            elif operator.gettokentype() == 'MUL':
+                return Mul(left, right)
+            elif operator.gettokentype() == 'DIV':
+                return Div(left, right)
+            elif operator.gettokentype() == 'MOD':
+                return Mod(left, right)
 
         @self.pg.production('expression : NUMBER')
         def number(p):

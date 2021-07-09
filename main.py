@@ -2,8 +2,10 @@ from lexer import Lexer
 from parsers import Parser
 
 text_input = """
-print(4 + 4 - 2);
+print(20 / 3);
 """
+
+# string = input()
 
 lexer = Lexer().get_lexer()
 tokens = lexer.lex(text_input)
