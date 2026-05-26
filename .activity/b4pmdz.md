@@ -1,5 +1,0 @@
-# 7wz0vhogs5xe8qzfn1dvi3n0vt6zvb490gw6hlvz
-# mpvhtitrbasx
-# haykx3yyzrasbqqq3oayxgoz04wenu
-# odexjz85tdswrgp0myz1055n803vhiuzhzgs5b5
-# 34b8vtlz7fz1mhja441k6c4bq7rsd

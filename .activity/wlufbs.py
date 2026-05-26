@@ -1,4 +1,0 @@
-# mmzqqbpl2i1d3pbmckuamkyrglkhn6chc
-# bwgcnk2jwapdizmyflywij9j
-# yi44ti84l42tleytkz
-# aci70vk1ns4cz36zxn4sing4ccpqn05w

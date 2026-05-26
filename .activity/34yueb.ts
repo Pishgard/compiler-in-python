@@ -1,5 +1,0 @@
-# 2jpc7q4c8t2q9k4zbzy9uhhsleptptpis
-# 0kfutdwerw9cgq2qhawayxa2k44rg
-# lj0i7asxknyi3ujlaq43wvq7fr0
-# n1txltt4ohmd98eyjm32ikn4ix5jcwrmnhgzrmr
-# 4h9deem3rf4r88tfat4s9ndl2zvud9
